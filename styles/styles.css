@@ -1,0 +1,16 @@
+/* Centering logo */
+.logo{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    width: 272px;
+    height: 92px;
+    padding-top: 109px;    
+}
+
+.search{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    width: 527px;
+}
