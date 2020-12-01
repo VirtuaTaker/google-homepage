@@ -1,16 +1,43 @@
+/* Removing Nav bar bullets and setting margin and padding to 0 */
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Making Nav bar horizontal and styling items */
+li{
+    display: inline;
+    font-family: arial, sans-serif;
+    padding-left: 15px;
+    padding-top: 16px;
+    color: #000;
+    opacity: 0.75;
+    font-size: 13px;
+}
+
+/* Splitting Nav bar into left and right sections */
+
+
 /* Centering logo */
 .logo{
     display: flex;
     flex-flow: column;
+    padding-top: 109px;
     margin: auto;
     width: 272px;
     height: 92px;
-    padding-top: 109px;    
+      
 }
 
+/* Centering and styling search bar */
 .search{
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     margin: auto;
+    margin-top: 25px;
     width: 527px;
+    line-height: 34px;
+    border: 1px solid lightgray;
+    border-radius: 25px;     
 }
