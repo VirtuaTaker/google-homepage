@@ -17,7 +17,26 @@ li{
 }
 
 /* Splitting Nav bar into left and right sections */
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
 
+/* Styling sign in button */
+button{
+    border: 1px solid #4285f4;
+    font-weight: bold;
+    outline: none;
+    color: #fff;
+    line-height: 28px;
+    padding: 0 12px;
+    border-radius: 2px;
+    background-color: #4387fd;
+    font-size: 13px;
+    align-content: center;
+}
 
 /* Centering logo */
 .logo{
@@ -26,8 +45,7 @@ li{
     padding-top: 109px;
     margin: auto;
     width: 272px;
-    height: 92px;
-      
+    height: 92px;      
 }
 
 /* Centering and styling search bar */
