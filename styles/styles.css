@@ -35,7 +35,6 @@ button{
     border-radius: 2px;
     background-color: #4387fd;
     font-size: 13px;
-    align-content: center;
 }
 
 /* Centering logo */
@@ -58,4 +57,14 @@ button{
     line-height: 34px;
     border: 1px solid lightgray;
     border-radius: 25px;     
+}
+
+/* Splitting footer into left and right sections and placing them on the bottom */
+.footer-left{
+    float: left;
+    margin-bottom: 0;
+}
+.footer-right{
+    float: right;
+    margin-bottom: 0;
 }
