@@ -1,70 +1,40 @@
-/* Removing Nav bar bullets and setting margin and padding to 0 */
-ul{
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+/* Removing bullet points from nav bar items */
+.navList {
+    list-style-type: none;    
 }
-
-/* Making Nav bar horizontal and styling items */
-li{
-    display: inline;
-    font-family: arial, sans-serif;
+/* Removing uderline from nav bar items and styling text */
+.navLink {
+    text-decoration: none;
     padding-left: 15px;
-    padding-top: 16px;
     color: #000;
-    opacity: 0.75;
-    font-size: 13px;
+    opacity: .75;
+    font-size: 18px;
+    line-height: 28px;
 }
-
-/* Splitting Nav bar into left and right sections */
-.left{
-    float: left;
+/* Adding uderline on hover to nav bar items */
+.navLink:hover{
+    text-decoration: underline;
 }
-.right{
-    float: right;
+/* Making nav bar take 100% width of viewport */
+nav{
+    width: 100vw;
 }
-
-/* Styling sign in button */
-button{
+/* Making nav bar horizontal */
+.nav{
+    display: flex;
+    margin: 0;
+    padding-left: 15px;
+}
+/* Styling nav bar button */
+.navButton{
+    margin-left: 15px;
+    font-size: 16px;
+    background: -webkit-linear-gradient(top,#4387fd,#4683ea);
     border: 1px solid #4285f4;
-    font-weight: bold;
     outline: none;
     color: #fff;
-    line-height: 28px;
+    font-weight: bold;
     padding: 0 12px;
     border-radius: 2px;
-    background-color: #4387fd;
-    font-size: 13px;
-}
-
-/* Centering logo */
-.logo{
-    display: flex;
-    flex-flow: column;
-    padding-top: 109px;
-    margin: auto;
-    width: 272px;
-    height: 92px;      
-}
-
-/* Centering and styling search bar */
-.search{
-    display: flex;
-    flex-flow: row;
-    margin: auto;
-    margin-top: 25px;
-    width: 527px;
-    line-height: 34px;
-    border: 1px solid lightgray;
-    border-radius: 25px;     
-}
-
-/* Splitting footer into left and right sections and placing them on the bottom */
-.footer-left{
-    float: left;
-    margin-bottom: 0;
-}
-.footer-right{
-    float: right;
-    margin-bottom: 0;
+    line-height: 28px;
 }
