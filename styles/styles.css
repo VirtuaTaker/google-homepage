@@ -31,6 +31,17 @@ nav{
     margin-left: auto;
     padding-right: 15px;
 }
+/* Resizing Google apps icon */
+.icon{
+    height: 23px;
+    width: 23px;
+    padding: 5px;
+}
+/* Making Google apps icon round on hover */
+.icon:hover{
+    background-color: lightgrey;    
+    border-radius: 50%;
+}
 /* Styling nav bar button */
 .navButton{
     margin-left: 15px;
@@ -44,8 +55,66 @@ nav{
     border-radius: 2px;
     line-height: 28px;
 }
-
-
+/* Centering logo and search bar */
+.center{
+    display: flex;
+    flex-flow: column;
+    margin: auto;
+    text-align: center;    
+}
+/* Styling and positioning logo */
+.logo{
+    padding-top: 109px;
+    height: 92px;
+    width: 272px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* Styling and positioning search bar */
+.search{
+    height: 42px;
+    width: 561px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* Positioning buttons */
+.buttons{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+}
+/* Styling Google Search button */
+.google{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
+/* Styling Google Search button */
+.lucky{
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    border-radius: 4px;
+    color: #5F6368;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    cursor: pointer;
+}
 /* Removing bullet points from footer items */
 .footerList{
     list-style-type: none;
